@@ -844,6 +844,12 @@
     "enchantment.soulsweapons.chain_lightning.desc": "Silver Bullets damage nearby entities with soul infused lightning.",
     "enchantment.soulsweapons.misfire_curse": "Curse of Misfire",
     "enchantment.soulsweapons.misfire_curse.desc": "Each Silver Bullet has a chance to explode and damage the user when shot.",
+    "enchantment.soulsweapons.blight_carrier": "Blight Carrier",
+    "enchantment.soulsweapons.blight_carrier.desc": "Silver Bullets apply stacking Blight: more armor = more damage taken.",
+    "enchantment.soulsweapons.blighted_blade": "Blighted Blade",
+    "enchantment.soulsweapons.blighted_blade.desc": "Swords carrying this enchantment apply one stack of Blight on hit.",
+    "enchantment.soulsweapons.frostsilver": "Frostsilver",
+    "enchantment.soulsweapons.frostsilver.desc": "Silver Bullets apply strong Permafrost upon Posture Break.",
 
     "itemGroup.soulsweapons.general": "Soulslike Weaponry Tab",
 
@@ -936,4 +942,3 @@
     "advancements.soulsweapons.glaive_of_hodir.description": "Acquire the Glaive of Hodir, decimate your foes with never-ending aggression.",
     "advancements.soulsweapons.excalibur.title": "Right back at ya!",
     "advancements.soulsweapons.excalibur.description": "Kill the Warden after acquiring the Excalibur."
-}

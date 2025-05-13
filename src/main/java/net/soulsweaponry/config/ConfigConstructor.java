@@ -34,6 +34,9 @@ public class ConfigConstructor extends MidnightConfig {
     @Entry public static boolean disable_enchantment_explosive_rounds = false;
     @Entry public static boolean disable_enchantment_chain_lightning = false;
     @Entry public static boolean disable_enchantment_misfire_curse = false;
+    @Entry public static boolean disable_enchantment_blight_carrier = false;
+    @Entry public static boolean disable_enchantment_blighted_blade = false;
+    @Entry public static boolean disable_enchantment_frostsilver = false;
 
     @Entry public static boolean disable_recipe_bloodthirster = false;
     @Entry public static boolean disable_recipe_bluemoon_greatsword = false;
@@ -876,4 +879,3 @@ public class ConfigConstructor extends MidnightConfig {
     @Entry(min=0) public static double night_prowler_cooldown_modifier_phase_2 = 1D;
     @Entry(min=0) public static double night_prowler_special_cooldown_modifier_phase_1 = 1D;
     @Entry(min=0) public static double night_prowler_special_cooldown_modifier_phase_2 = 1D;
-}
