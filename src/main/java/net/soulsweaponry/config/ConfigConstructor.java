@@ -879,3 +879,4 @@ public class ConfigConstructor extends MidnightConfig {
     @Entry(min=0) public static double night_prowler_cooldown_modifier_phase_2 = 1D;
     @Entry(min=0) public static double night_prowler_special_cooldown_modifier_phase_1 = 1D;
     @Entry(min=0) public static double night_prowler_special_cooldown_modifier_phase_2 = 1D;
+}
