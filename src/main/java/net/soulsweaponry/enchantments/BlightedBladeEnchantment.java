@@ -31,7 +31,7 @@ public class BlightedBladeEnchantment extends Enchantment {
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if (target instanceof LivingEntity) {
             int amp = ((LivingEntity) target).getStatusEffect(EffectRegistry.BLIGHT.get()).getAmplifier();
-            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(EffectRegistry.BLIGHT, ConfigConstructor.blight_carrier_enchant_blight_duration, amp + 1));
+            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(EffectRegistry.BLIGHT.get(), ConfigConstructor.blight_carrier_enchant_blight_duration, amp + 1));
         }
         super.onTargetDamaged(user, target, level);
     }

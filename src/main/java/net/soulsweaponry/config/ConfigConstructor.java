@@ -282,6 +282,8 @@ public class ConfigConstructor extends MidnightConfig {
     @Entry public static int withered_chest_life_leach_duration = 400;
     @Entry public static int withered_chest_life_leach_amplifier = 0;
 
+    @Entry(min=0, max=1) public static int blight_carrier_enchant_blight_duration = 160;
+    @Entry(min=0, max=1) public static int blight_carrier_enchant_blight_per_level = 2;
     @Entry public static int bloodthirster_damage = 8;
     @Entry public static float bloodthirster_attack_speed = 1.6f;
     @Entry public static boolean bloodthirster_overshields = true;
