@@ -35,6 +35,7 @@ public class ConfigConstructor extends MidnightConfig {
     @Entry public static boolean disable_enchantment_chain_lightning = false;
     @Entry public static boolean disable_enchantment_misfire_curse = false;
     @Entry public static boolean disable_enchantment_blight_carrier = false;
+    @Entry public static boolean disable_enchantment_blighted_blade = false;
     @Entry public static boolean disable_enchantment_frostsilver = false;
 
     @Entry public static boolean disable_recipe_bloodthirster = false;
